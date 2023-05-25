@@ -1,0 +1,30 @@
+.titMain {
+    margin: 0 0 60px;
+    color: #292929;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    
+}
+
+.cardList{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 1203px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.cardImg{
+    width: 366px;
+    height: 420px;
+    color: #292929;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    box-shadow: 0 8px 8px -4px gray;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+}
