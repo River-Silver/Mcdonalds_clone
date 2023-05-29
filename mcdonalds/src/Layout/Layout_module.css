@@ -1,3 +1,5 @@
 .layout{
-    padding-top: 140px;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
 }

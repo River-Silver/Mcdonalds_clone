@@ -1,15 +1,13 @@
 .header{
-    width: 1280px;
+    width: 1519.5px;
     height: 140px;
-    display: flex;
-    position: fixed;
+    display: block;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(222, 235, 222) ;
 }
 .img{
-    margin-left: 175px;
-    margin-top:11px;
+    margin-left: 167px;
+    margin-top:18px;
     padding: 0;
     line-height: 0;
     vertical-align: top;
@@ -26,14 +24,12 @@
 	align-items: center;
 }
 li+li{
-    margin-left: 110px;
+    margin-left: 100px;
 }
 header ul {
-    position: fixed;
-    margin-left: 340px;
+    margin-left: 310px;
     margin-top: -70px;
 	display: flex;
-	justify-content: space-between;
 }
 
 div button{
@@ -58,6 +54,9 @@ div button{
     background-color: #D87E00;
     color: white;
     border: 0;
+}
+h4{
+    margin-top:10px;
 }
 .df{
     display: flex;
