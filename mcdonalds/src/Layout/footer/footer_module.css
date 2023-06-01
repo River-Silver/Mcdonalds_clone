@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .footer{
     height: 259.4px;
     width:100%;
@@ -5,10 +9,17 @@
     background-color: #292929;
     
 }
-.footer ul > li{
+.footers{
     font-size:20px;
 	height: 100%;
-	display: flex;
+    margin-top: 43px;
+    margin-left: 180px;
+}
+.footers2{
+    font-size:20px;
+	height: 100%;
+    margin-top: -177px;
+    margin-left: 360px;
 }
 .title{
     font-weight: 600;
@@ -16,4 +27,21 @@
 }
 .font{
     font-size: 20px;
+}
+.imgSize{
+    position: absolute;
+    width:40px;
+    border-radius: 40%;
+}
+.imgSize2{
+    position:absolute;
+    width:100px;
+    height: 70.64px;
+}
+a + a{
+    margin-left: 60px;
+}
+.imgMargin{
+    margin-left:960px;
+    margin-top:-150px;
 }
