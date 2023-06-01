@@ -13,7 +13,9 @@
     vertical-align: top;
     overflow: clip;
 }
-
+.img2{
+    margin-right:500px;
+}
 *{
     box-sizing: border-box;
 }
@@ -30,6 +32,20 @@ header ul {
     margin-left: 310px;
     margin-top: -70px;
 	display: flex;
+}
+.li2{
+    margin-left:1020px;
+    margin-top:-70px;
+    display: flex;
+}
+.li3{
+    margin-left:1270px;
+    margin-top:-60px;
+    display: flex;
+}
+
+button + button{
+    margin-left:5px;
 }
 
 div button{
