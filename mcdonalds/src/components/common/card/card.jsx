@@ -1,4 +1,3 @@
-import "./card.css";
 import MacGridle from "./img/MacGridle.jpg";
 import Blt from "./img/Blt.jpg";
 import Wing from "./img/Wing.jpg";
@@ -15,22 +14,17 @@ const Card = () => {
   }
 
   return (
-    <div>
+    <StyledCard>
       <TitMain>McDonalds's LIVE </TitMain>
       <CardList>
         <CardImg>
           <Cards
             img={Blt}
             title="5월엔 맥을 더 크고 풍성하게! 더블 빅맥 & 빅맥 BLT 출시"
-            className="cardImg"
           />
         </CardImg>
         <CardImg>
-          <Cards
-            img={Wing}
-            title="돌아온 맥윙의 맛! 겉바속쫄 맥윙!"
-            className="cardImg"
-          />
+          <Cards img={Wing} title="돌아온 맥윙의 맛! 겉바속쫄 맥윙!" />
         </CardImg>
         <CardImg>
           <Cards
@@ -46,36 +40,36 @@ const Card = () => {
           <Cards
             img={Blt}
             title="5월엔 맥을 더 크고 풍성하게! 더블 빅맥 & 빅맥 BLT 출시"
-            className="cardImg"
           />
         </CardImg>
         <CardImg>
-          <Cards
-            img={Wing}
-            title="돌아온 맥윙의 맛! 겉바속쫄 맥윙!"
-            className="cardImg"
-          />
+          <Cards img={Wing} title="돌아온 맥윙의 맛! 겉바속쫄 맥윙!" />
         </CardImg>
         <CardImg>
-          <Cards
-            img={MacGridle}
-            title="단짠속촉 맥그리들 is back!"
-            className="cardImg"
-          />
+          <Cards img={MacGridle} title="단짠속촉 맥그리들 is back!" />
         </CardImg>
       </CardList>
-    </div>
+      <PlusLayout>
+        <Plus>
+          <PlusT>+</PlusT>
+        </Plus>
+      </PlusLayout>
+    </StyledCard>
   );
 };
 
 export default Card;
 
-const TitMain = styled.div`
-  margin: 0 0 60px;
+const StyledCard = styled.div`
+  width: 1200px;
+`;
+
+const TitMain = styled.p`
   color: #292929;
   font-size: 40px;
   font-weight: bold;
   line-height: 1;
+  margin-left: 100px;
 `;
 
 const CardList = styled.div`
@@ -92,10 +86,30 @@ const CardImg = styled.div`
   height: 420px;
   color: #292929;
   font-size: 20px;
-  padding: 20px;
+  padding: 0px;
   line-height: 30px;
   font-weight: bold;
-  box-shadow: 0 8px 8px -4px gray;
-  border: 1px solid black;
-  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0 6px 6px -2px lightgray;
+  border-radius: 15px;
+  overflow: hidden;
+`;
+
+const PlusLayout = styled.div`
+  width: 1200px;
+`;
+
+const Plus = styled.div`
+  width: 90px;
+  height: 90px;
+  padding-left: 20px;
+  background-color: #ffbc0d;
+  margin-left: 600px;
+  border-radius: 100px;
+  margin-bottom: 50px;
+`;
+
+const PlusT = styled.p`
+  font-size: 85px;
+  color: #292929;
+  font-weight: lighter;
 `;
