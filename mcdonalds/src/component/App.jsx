@@ -7,10 +7,8 @@ const App = () => {
   return (
     <div>
       <Layout>
-        
-      <Main />
-      <Card />
-
+        <Main />
+        <Card />
       </Layout>
     </div>
   );
