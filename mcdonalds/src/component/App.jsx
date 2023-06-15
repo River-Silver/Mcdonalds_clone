@@ -1,16 +1,12 @@
-// import Main from "../components/common/Main/mainIng";
-import Card from "../components/common/card/card";
-import Layout from "../Layout/Layout";
-import Slider from "../components/common/Main/swipe";
-
-const App = () => {
+import Main from "./main"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+function App() {
   return (
-    <Layout>
-      {/* <Main /> */}
-      <Slider />
-      <Card />
-    </Layout>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
-};
-
+}
 export default App;

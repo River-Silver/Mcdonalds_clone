@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import Slide from "./slide";
-import img1 from "../img/Alba.jpg";
-import img2 from "../img/Bigmac.jpg";
-import img3 from "../img/Flurry.jpg";
+import img1 from "./img/Alba.jpg";
+import img2 from "./img/Bigmac.jpg";
+import img3 from "./img/Flurry.jpg";
 
 const TOTAL_SLIDES = 2; // 전체 슬라이드 개수(총3개. 배열로 계산)
 
