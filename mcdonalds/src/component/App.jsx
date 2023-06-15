@@ -1,11 +1,13 @@
-import Main from "./main"
+import Main from "./main";
+import Delivery from "./delivery/delivery";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-function App() {
+function App(){
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />}></Route>
-      </Routes>
+        <Route path="/delivery" element={<Delivery/>}></Route>
+        </Routes>
     </BrowserRouter>
   );
 }
