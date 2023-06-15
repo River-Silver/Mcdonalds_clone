@@ -90,6 +90,7 @@ h4{
     background-color: white;
     margin-top: 505px;
     margin-left: -370px;
+    z-index: 50;
   }
   
   .dropdown-content a{
