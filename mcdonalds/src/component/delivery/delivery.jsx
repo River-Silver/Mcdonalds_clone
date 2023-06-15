@@ -145,7 +145,7 @@ const Unit = styled.span`
   font-weight: bolder;
 `;
 const AptTag = styled.text`
-  font-size: 16px;
+  font-size: 16px; 
   color: gray;
   font-weight: bolder;
 `;
