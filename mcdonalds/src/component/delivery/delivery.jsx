@@ -1,13 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import Layout from "../../Layout/Layout";
 import McDelivery from "./mcDelivery";
 import McIcon from "./assets/McIcon.png";
-import Address from "./address";
-import Search from "./search";
-import Inform from "./inform";
-import McButton from "./mcButton";
-const delivery = () => {
+import Service from "./assets/service.png";
+import Android from "./assets/img_app_android.png"
+import Ios from "./assets/img_app_ios.png"
+const Delivery = () => {
   return (
     <Layout>
       <McDelivery></McDelivery>
@@ -39,7 +38,7 @@ const delivery = () => {
             </InputsDiv>
           </Sbox>
           <Rbox>
-            <McImg src={McIcon}></McImg>
+            <McImg src={McIcon} />
           </Rbox>
         </DeliverySearch>
         <br></br>
@@ -49,7 +48,9 @@ const delivery = () => {
             &nbsp;매장 별 무료 배달 주문 금액 및 소액주문비는 다르게 운영될 수
             있으며, 주문 시 결제 페이지에서 미리 확인 하실 수 있습니다.<br></br>
           </Mcli>
-          <Mcli>&nbsp;맥딜리버리 가격은 매장과 상이합니다.<br></br></Mcli>
+          <Mcli>
+            &nbsp;맥딜리버리 가격은 매장과 상이합니다.<br></br>
+          </Mcli>
           <Mcli>
             &nbsp;배달 가능 구역 내에서도 기상조건이나 기타 매장의 사정에 따라
             배달 서비스 이용이 어려울 수 있습니다.<br></br>
@@ -64,11 +65,16 @@ const delivery = () => {
           </Mcli>
           <Mcli>&nbsp;맥딜리버리의 운영 시간은 매장과 상이할 수 있습니다.</Mcli>
         </Mcul>
+        <DeliveryDown>
+          <DownButton><Atag href = "https://www.mcdelivery.co.kr/kr/"><UnderText>맥딜리버리 온라인 주문하기</UnderText></Atag></DownButton>
+          <AIdiv><Atag href = "https://play.google.com/store/apps/details?id=com.mwos2.mcdelivery&hl=ko"><img src = {Android}></img><AptTag>안드로이드 맥딜리버리 앱 다운</AptTag></Atag></AIdiv>
+          <AIdiv><Atag href = "https://apps.apple.com/kr/app/%EB%A7%A5%EB%94%9C%EB%A6%AC%EB%B2%84%EB%A6%AC/id1027699629"><img src = {Ios}></img><AptTag>아이폰 맥딜리버리 앱 다운</AptTag></Atag></AIdiv>
+        </DeliveryDown>
       </DeMain>
     </Layout>
   );
 };
-export default delivery;
+export default Delivery;
 
 const DeMain = styled.div`
   width: 1168px;
@@ -82,7 +88,23 @@ const DeliverySearch = styled.div`
   display: flex;
   gap: 40px;
 `;
-
+const DeliveryDown = styled.div`
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  margin-top:100px;
+  gap:10px;
+`
+const DownButton = styled.button`
+  width:308.46px;
+  height:90px;
+  background-color: #DA0000;
+  margin-left:20px;
+  border:0;
+`
+const Atag = styled.a`
+  text-decoration: none;
+`
 const Text = styled.h1`
   text-align: left;
   font-size: 30px;
@@ -107,7 +129,7 @@ const Rbox = styled.div`
   border: 4px solid red;
   display: flex;
   justify-content: center;
-  vertical-align: mid;
+  vertical-align: middle;
 `;
 const McImg = styled.img``;
 const InputAdd = styled.input`
@@ -145,7 +167,7 @@ const Unit = styled.span`
   font-weight: bolder;
 `;
 const AptTag = styled.text`
-  font-size: 16px; 
+  font-size: 16px;
   color: gray;
   font-weight: bolder;
 `;
@@ -194,5 +216,17 @@ const Mcli = styled.li`
   color: gray;
   font-weight: bolder;
   margin: 0;
-  margin-top:12px;
+  margin-top: 12px;
 `;
+const UnderText = styled.text`
+  font-size: 18px;
+  font-weight:bolder;
+  color:white;
+`
+const AIdiv = styled.div`
+  width:250px;
+  height:120.4px;
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+`

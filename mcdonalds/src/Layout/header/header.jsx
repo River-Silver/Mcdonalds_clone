@@ -26,7 +26,7 @@ const Header = () => {
               <div class="tt">
               <a href = "#" className="dropli2" style={{fontSize:"16px",color:"gray"}}>매장찾기</a>
               <a href = "/delivery" className="dropli2" style={{fontSize:"16px",color:"gray"}}>맥딜리버리</a>
-              <a href = "#" className="dropli2" style={{fontSize:"16px",color:"gray"}}>맥드라이브</a>
+              <a href = "/mcdrive" className="dropli2" style={{fontSize:"16px",color:"gray"}}>맥드라이브</a>
               <a href = "#" className="dropli2" style={{fontSize:"16px",color:"gray"}}>임차문의</a>
               </div>
               <div class = "tt2">
