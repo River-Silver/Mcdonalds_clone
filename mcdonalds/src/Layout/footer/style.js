@@ -28,10 +28,11 @@ export const UInfo = styled.ul`
   display: flex;
   flex-direction: column;
 `;
-export const UInfoFlex = styled.ul`
-  width: 360px;
+export const UInfoFlex = styled.div`
+  width: 500px;
   height: 66px;
   display: flex;
+  margin-left:100px;
 `;
 export const Ftext = styled.p`
   line-height: 20px;
@@ -54,5 +55,5 @@ export const InfoText = styled.p`
 `;
 export const Imgs = styled.img`
   width: 40px;
-  margin: 0px -40px;
+  margin: 0 10px;
 `;
