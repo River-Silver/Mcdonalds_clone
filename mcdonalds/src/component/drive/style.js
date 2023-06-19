@@ -36,5 +36,6 @@ export const DownButton = styled.button`
   border: 0;
 `;
 export const DownText = styled.text`
-font-size:18px;
-font-weight:bold;`
+  font-size: 18px;
+  font-weight: bold;
+`;
