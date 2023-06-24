@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const Img = styled.img`
   width: 100%;
   height: auto;
@@ -25,9 +24,11 @@ export const Mcp = styled.p`
   font-weight: bold;
 `;
 export const DownDiv = styled.div`
+width:100%;
   display: flex;
   text-align: center;
   justify-content: center;
+  margin-top:100px;
 `;
 export const DownButton = styled.button`
   width: 293.4px;
@@ -39,3 +40,4 @@ export const DownText = styled.text`
   font-size: 18px;
   font-weight: bold;
 `;
+

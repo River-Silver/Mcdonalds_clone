@@ -1,7 +1,7 @@
 import Layout from "../../Layout/Layout";
 import * as S from "./style";
 import McDrive from "./assets/mcDrive.png";
-
+import ReactPlayer from "react-player";
 const Drive = () => {
   return (
     <Layout>
@@ -14,6 +14,17 @@ const Drive = () => {
           <br />차 안에서 주문하고, 차 안에서 바로 받아 맛있는 맥도날드를
           즐겨보세요.
         </S.Mcp>
+        <ReactPlayer
+            className="player"
+            url={
+              "https://www.youtube.com/watch?v=BiMkqfVNmnk&embeds_referring_euri=https%3A%2F%2Fwww.mcdonalds.co.kr%2F&source_ve_path=MjM4NTE&feature=emb_title"
+            }
+            width="100%"
+            height="600px"
+            playing={false}
+            muted={true}
+            controls={true}
+          />
         <S.DownDiv>
           <S.DownButton>
             <S.DownText>맥드라이브 매장 검색하기</S.DownText>

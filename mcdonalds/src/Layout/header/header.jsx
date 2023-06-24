@@ -24,7 +24,7 @@ const Header = () => {
               <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>맥카페 & 음료</a>
               <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>해피밀</a>
               <div class="tt">
-              <a href = "#" className="dropli2" style={{fontSize:"16px",color:"gray"}}>매장찾기</a>
+              <a href = "/search" className="dropli2" style={{fontSize:"16px",color:"gray"}}>매장찾기</a>
               <a href = "/delivery" className="dropli2" style={{fontSize:"16px",color:"gray"}}>맥딜리버리</a>
               <a href = "/mcdrive" className="dropli2" style={{fontSize:"16px",color:"gray"}}>맥드라이브</a>
               <a href = "/rental" className="dropli2" style={{fontSize:"16px",color:"gray"}}>임차문의</a>
