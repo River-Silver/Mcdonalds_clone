@@ -10,14 +10,6 @@ import Mcmorning from "./assets/mcmorning.png";
 import Parking from "./assets/parking.png";
 import * as K from "react-kakao-maps-sdk";
 
-const test = () => {
-	const script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "//dapi.kakao.com/v2/maps/sdk.js?appkey=5b80c7e1b82d03956b88c1f5d193a0f6&libraries=services,clusterer";
-    document.head.appendChild(script);
-}
-
-test();
 const SearchMc = () => {
   return (
     <Layout>
@@ -58,14 +50,32 @@ const SearchMc = () => {
           </S.Mid>
         </S.Nmain>
         <K.Map
-      center={{ lat: 33.5563, lng: 126.79581 }}
-      style={{ width: "1000px", height: "360px" }}
-      
-    >
-      <K.MapMarker position={{ lat: 33.55635, lng: 126.795841 }}>
-        <div style={{color:"#000"}}>Hello World!</div>
-      </K.MapMarker>
-    </K.Map>
+          center={{ lat: 37.566826, lng: 126.9786567 }}
+          style={{ width: "1000px", height: "560px", marginTop: "30px" }}
+        >
+          <K.MapMarker position={{ lat: 37.566826, lng: 126.9786567 }}>
+            <div style={{ color: "#000" }}>맥도날두 먹고싶다..</div>
+          </K.MapMarker>
+        </K.Map>
+        <S.MapUnderButton>내 위치 중심으로 지도 보기</S.MapUnderButton>
+        <S.Table>
+          <tr>
+          <S.Th>매장명/주소</S.Th>
+          <S.Th>전화번호</S.Th>
+          <S.Th>영업시간</S.Th>
+          <S.Th>이용가능 서비스</S.Th>
+          </tr>
+        
+          <S.Td>한국맥도날드(유)<br/><br/>
+          <text style={{color:"#808080"}}>
+          서울 종로구 공평동 70<br/>
+          서울특별시 종로구 종로<br/>
+          51(종로타워)
+          </text></S.Td>
+          
+          <S.Td>1600-5252</S.Td>
+
+        </S.Table>
       </S.DeMain>
     </Layout>
   );

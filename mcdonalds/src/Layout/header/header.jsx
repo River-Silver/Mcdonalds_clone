@@ -38,7 +38,7 @@ const Header = () => {
               <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>브랜드 소개</a>
               <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>사회적 책임과 지원</a>
               <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>맥도날드 품질 이야기</a>
-              <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>맥도날드 사람들</a>
+              <a href = "/brandintro" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>맥도날드 사람들</a>
 
               </div>
                
@@ -60,7 +60,7 @@ const Header = () => {
 
           <li className="li2">
             <button className="imcha">
-              <h4>임차문의</h4>
+              <a href = "/rental" style={{textDecoration:"none", color:"white"}}><h4>임차문의</h4></a>
             </button>
             <button className="rec">
               <h4>RECRUIT</h4>
