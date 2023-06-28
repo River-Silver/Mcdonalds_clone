@@ -6,6 +6,7 @@ const MenuTop = () => {
       <MenuType>
         <MenuTypeP>단품메뉴</MenuTypeP>
         {/* <MenuTypeP>세트메뉴</MenuTypeP> */}
+
       </MenuType>
       <Counts>- 20 Products</Counts>
     </StyledTop>

@@ -1,31 +1,30 @@
 import styled from "styled-components";
 import Burger from "./img/burger.png";
-import MenuCard from "./menuCard";
+import * as M from "./menuSet";
 import Layout from "../../Layout/Layout";
 import MenuTop from "./menuTop";
-import * as M from "./menuCard";
-const MenuBurger = () => {
+const MenuSet = () => {
   return (
     <div>
       <Layout>
         <MainImg src={Burger} alt="버거" />
         <MenuTop />
         <ListCards>
-          <M.MenuCardBurger1 />
-          <M.MenuCardBurger2 />
-          <M.MenuCardBurger3 />
+          <M.MenuCardSet1 />
+          <M.MenuCardSet2 />
+          <M.MenuCardSet3 />
         </ListCards>
         <ListCards>
-        <M.MenuCardBurger4 />
-        <M.MenuCardBurger5 />
-        <M.MenuCardBurger6 />
+        <M.MenuCardSet4 />
+        <M.MenuCardSet5 />
+        <M.MenuCardSet6 />
         </ListCards>
       </Layout>
     </div>
   );
 };
 
-export default MenuBurger;
+export default MenuSet;
 
 const MainImg = styled.img`
   width: 100%;

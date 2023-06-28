@@ -8,6 +8,10 @@ import Brandintro from "./brandIntro/brandIntro";
 import Work from "./brandIntro/work";
 
 import MenuBurger from "./menu/page";
+import MenuSet from "./menu/SetPage";
+import Recruit from "./brandIntro/recruit";
+import Brand from "./brand/brand";
+import BrandHistory from "./brand/brandhistory";
 import MacLunch from "../menuLunch";
 import MacMorning from "../MacMorning";
 import HappySnack from "../HappySnack";
@@ -28,8 +32,11 @@ function App() {
         <Route path="/search" element={<SearchMc />}></Route>
         <Route path="/brandintro" element={<Brandintro />}></Route>
         <Route path="/work" element={<Work />}></Route>
-
         <Route path="/menu" element={<MenuBurger />}></Route>
+        <Route path="/menuset" element={<MenuSet/>}></Route>
+        <Route path="/recruit" element={<Recruit/>}></Route>
+        <Route path="/brand" element={<Brand/>}></Route>
+        <Route path="/brandhistory" element={<BrandHistory/>}></Route>
         <Route path="/lunch" element={<MacLunch />}></Route>
         <Route path="/morinng" element={<MacMorning />}></Route>
         <Route path="/snack" element={<HappySnack />}></Route>

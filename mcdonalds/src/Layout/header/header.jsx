@@ -5,15 +5,18 @@ import quest from "./images/quest.png";
 
 const Header = () => {
   return (
+    <div className="inner">
     <header className="header">
       <div>
         <div>
           {/* <LogoIcon cursor="pointer" onClick={() => router.push("/")} /> */}
+          <a href="/">
           <img
             src={logo}
             onClick={() => window.location.reload()}
             className="img"
           ></img>
+          </a>  
         </div>
 
         <nav>
@@ -21,6 +24,7 @@ const Header = () => {
             <li>
               <h4>Menu</h4>
               <div class="dropdown-content">
+
                 <a
                   href="/menu"
                   className="dropli"
@@ -125,7 +129,7 @@ const Header = () => {
                 </div>
                 <div class="tt3">
                   <a
-                    href="#"
+                    href="brand"
                     className="dropli4"
                     style={{ fontSize: "16px", color: "gray" }}
                   >
@@ -188,6 +192,7 @@ const Header = () => {
         </nav>
       </div>
     </header>
+    </div>
   );
 };
 
