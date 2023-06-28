@@ -6,6 +6,7 @@ import News from "./news/news";
 import SearchMc from "./search/search";
 import Brandintro from "./brandIntro/brandIntro";
 import Work from "./brandIntro/work";
+import MenuBurger from "./menu/page";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/search" element = {<SearchMc/>}></Route>
         <Route path="/brandintro" element = {<Brandintro/>}></Route>
         <Route path="/work" element = {<Work/>}></Route>
+        <Route path="/menu" element={<MenuBurger />}></Route>
       </Routes>
     </BrowserRouter>
   );

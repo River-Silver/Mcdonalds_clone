@@ -12,6 +12,7 @@
     line-height: 0;
     vertical-align: top;
     overflow: clip;
+    cursor: pointer;
 }
 .img2{
     margin-right:500px;
