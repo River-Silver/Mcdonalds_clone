@@ -1,84 +1,84 @@
 import styled from "styled-components";
-import McCrispy from "./img/McCrispy.png";
-import McSpicy from "./img/McSpicy.png";
-import BigMac from "./img/BigMac.png";
-import DQP from "./img/DQP.png";
-import Quarter from "./img/Quarter.png"
-import McCrispyDeluxe from "./img/McCrispyDeluxe.png";
-export const MenuCardBurger1 = () => {
+import McCrispy from "./img/McCrispySet.png";
+import McSpicy from "./img/McSpicySet.png";
+import BigMac from "./img/BigMacSet.png";
+import DQP from "./img/DQPSet.png";
+import Quarter from "./img/QuarterSet.png"
+import McCrispyDeluxe from "./img/McCrispyDeluxeSet.png";
+export const MenuCardSet1 = () => {
   return (
     <Box>
       <img src={McCrispy} alt="맥그리들" />
       <ContentBox>
-        <ContentTitle>맥크리스피<sub class="reg">™</sub>핫앤치즈</ContentTitle>
+        <ContentTitle>맥크리스피<sub class="reg">™</sub>핫앤치즈 세트</ContentTitle>
       </ContentBox>
       <ContentBox>
-      <ContentEng>McCrispy<sub class="reg">™</sub>Hot & Cheese</ContentEng>
+        <ContentEng>McCrispy<sub class="reg">™</sub>Hot & Cheese Meal</ContentEng>
       </ContentBox>
     </Box>
   );
 };
-export const MenuCardBurger2 = () => {
+export const MenuCardSet2 = () => {
   return (
     <Box>
       <img src={McSpicy} alt="맥그리들" />
       <ContentBox>
-        <ContentTitle>맥스파이시<sub class="reg">®</sub>핫앤치즈</ContentTitle>
+        <ContentTitle>맥스파이시<sub class="reg">®</sub>핫앤치즈 세트</ContentTitle>
       </ContentBox>
       <ContentBox>
-      <ContentEng>McSpicy<sub class="reg">®</sub>Hot & Cheese</ContentEng>
+        <ContentEng>McSpicy<sub class="reg">®</sub>Hot & Cheese Meal</ContentEng>
       </ContentBox>
     </Box>
   );
 };
-export const MenuCardBurger3 = () => {
+export const MenuCardSet3 = () => {
   return (
     <Box>
       <img src={BigMac} alt="맥그리들" />
       <ContentBox>
-        <ContentTitle>빅맥<sub class="reg">®</sub></ContentTitle>
+        <ContentTitle>빅맥<sub class="reg">®</sub>세트</ContentTitle>
       </ContentBox>
       <ContentBox>
-      <ContentEng>Big Mac<sub class="reg">®</sub></ContentEng>
+        <ContentEng>Big Mac<sub class="reg">®</sub>Meal</ContentEng>
       </ContentBox>
     </Box>
   );
 };
-export const MenuCardBurger4 = () => {
+export const MenuCardSet4 = () => {
   return (
     <Box>
       <img src={DQP} alt="맥그리들" />
       <ContentBox>
-        <ContentTitle>더블 쿼터파운더<sub class="reg">®</sub>치즈</ContentTitle>
+        <ContentTitle>더블 쿼터파운더<sub class="reg">®</sub>치즈 세트</ContentTitle>
       </ContentBox>
       <ContentBox>
-      <ContentEng>Double Quarter Pounder<sub class="reg">®</sub><br></br>with Cheese</ContentEng>
+        <ContentEng>Double Quarter Pounder<sub class="reg">®</sub><br></br>with Cheese Meal</ContentEng>
       </ContentBox>
     </Box>
   );
 };
-export const MenuCardBurger5 = () => {
+export const MenuCardSet5 = () => {
   return (
     <Box>
       <img src={Quarter} alt="맥그리들" />
       <ContentBox>
-        <ContentTitle>쿼터파운더<sub class="reg">®</sub>치즈</ContentTitle>
+        <ContentTitle>쿼터파운더<sub class="reg">®</sub>치즈 세트</ContentTitle>
       </ContentBox>
       <ContentBox>
-      <ContentEng>Quarter Pounder<sub class="reg">®</sub><br></br>with Cheese</ContentEng>
+      <ContentEng>Quarter Pounder<sub class="reg">®</sub><br></br>with Cheese Meal</ContentEng>
       </ContentBox>
     </Box>
   );
 };
-export const MenuCardBurger6 = () => {
+export const MenuCardSet6 = () => {
   return (
     <Box>
       <img src={McCrispyDeluxe} alt="맥그리들" />
       <ContentBox>
-        <ContentTitle>맥크리스피<sub class="reg">™</sub>디럭스 버거</ContentTitle>
+        <ContentTitle>맥크리스피<sub class="reg">™</sub>디럭스 버거 세트</ContentTitle>
       </ContentBox>
       <ContentBox>
-      <ContentEng>McCrispy<sub class="reg">™</sub>Deluxe Burger</ContentEng>
+        <ContentEng>McCrispy<sub class="reg">™</sub>Deluxe Burger Meal</ContentEng>
       </ContentBox>
     </Box>
   );

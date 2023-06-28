@@ -7,6 +7,10 @@ import SearchMc from "./search/search";
 import Brandintro from "./brandIntro/brandIntro";
 import Work from "./brandIntro/work";
 import MenuBurger from "./menu/page";
+import MenuSet from "./menu/SetPage";
+import Recruit from "./brandIntro/recruit";
+import Brand from "./brand/brand";
+import BrandHistory from "./brand/brandhistory";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
         <Route path="/brandintro" element = {<Brandintro/>}></Route>
         <Route path="/work" element = {<Work/>}></Route>
         <Route path="/menu" element={<MenuBurger />}></Route>
+        <Route path="/menuset" element={<MenuSet/>}></Route>
+        <Route path="/recruit" element={<Recruit/>}></Route>
+        <Route path="/brand" element={<Brand/>}></Route>
+        <Route path="/brandhistory" element={<BrandHistory/>}></Route>
       </Routes>
     </BrowserRouter>
   );

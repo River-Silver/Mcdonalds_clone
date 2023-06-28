@@ -109,15 +109,52 @@ export const RestTd = styled.td`
 `;
 
 export const TextDiv = styled.div`
-width:100%;
-height:250px;
-display:flex;
-gap:10px;
-`
+  width: 100%;
+  height: 250px;
+  display: flex;
+  gap: 10px;
+`;
 
 export const Text = styled.p`
-color:#808080;
-font-size:14.8px;
-font-weight:bold;
-line-height:31px;
-`
+  color: #808080;
+  font-size: 14.8px;
+  font-weight: bold;
+  line-height: 31px;
+`;
+
+export const Bar = styled.div`
+  width: 100%;
+  height: 236px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+`;
+
+export const CarrerDiv = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  font-weight: bolder;
+`;
+
+export const CarrerInner = styled.div`
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #808080;
+  gap: 40px;
+  line-height: 30px;
+`;
+
+export const CarrerButton = styled.button`
+  width: 172px;
+  height: 70px;
+  border-radius: 40px;
+  background-color: #ffbc0d;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+`;

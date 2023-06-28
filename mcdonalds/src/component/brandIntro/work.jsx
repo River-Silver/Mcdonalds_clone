@@ -14,8 +14,12 @@ const Work = () => {
             <a href="/brandIntro" style={{ textDecoration: "none" }}>
               <S.GrayText>크루이야기</S.GrayText>
             </a>
+            <a href="/work" style={{ textDecoration: "none" }}>
             <S.RedText>업무소개</S.RedText>
+            </a>
+            <a href="/recruit" style={{ textDecoration: "none" }}>
             <S.GrayText>인재채용</S.GrayText>
+            </a>
           </S.Tab>
           <S.Title>업무 소개 (Restaurant Department Management)</S.Title>
           <S.GrayText style={{ fontSize: "15px", lineHeight: "30px" }}>

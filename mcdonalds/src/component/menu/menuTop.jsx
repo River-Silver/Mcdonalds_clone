@@ -4,8 +4,8 @@ const MenuTop = () => {
   return (
     <StyledTop>
       <MenuType>
-        <MenuTypeP>단품메뉴</MenuTypeP>
-        <MenuTypeP>세트메뉴</MenuTypeP>
+      <a href="/menu" style={{textDecorationLine:"none"}}><MenuTypeP>단품메뉴</MenuTypeP></a>
+        <a href="/menuset" style={{textDecorationLine:"none"}}><MenuTypeP style={{color:"#808080"}}>세트메뉴</MenuTypeP></a>
       </MenuType>
       <Counts>- 20 Products</Counts>
     </StyledTop>

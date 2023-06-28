@@ -5,15 +5,18 @@ import quest from "./images/quest.png";
 
 const Header = () => {
   return (
+    <div className="inner">
     <header className="header">
       <div>
         <div>
           {/* <LogoIcon cursor="pointer" onClick={() => router.push("/")} /> */}
+          <a href="/">
           <img
             src={logo}
             onClick={() => window.location.reload()}
             className="img"
           ></img>
+          </a>  
         </div>
 
         <nav>
@@ -21,8 +24,7 @@ const Header = () => {
             <li>
               <h4>Menu</h4>
               <div class="dropdown-content">
-
-              <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>버거</a>
+              <a href = "/menu" className="dropli" style={{fontSize:"16px",color:"gray"}}>버거</a>
               <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>맥런치</a>
               <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>맥모닝</a>
               <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>해피 스낵</a>
@@ -41,7 +43,7 @@ const Header = () => {
               <a href = "#" className = "dropli3"style={{fontSize:"16px",color:"gray"}}>이달의 해피밀</a>
               </div>
               <div class = "tt3">
-              <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>브랜드 소개</a>
+              <a href = "/brand" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>브랜드 소개</a>
               <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>사회적 책임과 지원</a>
               <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>맥도날드 품질 이야기</a>
               <a href = "/brandintro" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>맥도날드 사람들</a>
@@ -77,6 +79,7 @@ const Header = () => {
         </nav>
       </div>
     </header>
+    </div>
   );
 };
 
