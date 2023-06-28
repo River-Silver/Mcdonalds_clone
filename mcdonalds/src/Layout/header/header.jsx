@@ -24,31 +24,139 @@ const Header = () => {
             <li>
               <h4>Menu</h4>
               <div class="dropdown-content">
-              <a href = "/menu" className="dropli" style={{fontSize:"16px",color:"gray"}}>버거</a>
-              <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>맥런치</a>
-              <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>맥모닝</a>
-              <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>해피 스낵</a>
-              <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>사이드 & 디저트</a>
-              <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>맥카페 & 음료</a>
-              <a href = "#" className="dropli" style={{fontSize:"16px",color:"gray"}}>해피밀</a>
-              <div class="tt">
-              <a href = "/search" className="dropli2" style={{fontSize:"16px",color:"gray"}}>매장찾기</a>
-              <a href = "/delivery" className="dropli2" style={{fontSize:"16px",color:"gray"}}>맥딜리버리</a>
-              <a href = "/mcdrive" className="dropli2" style={{fontSize:"16px",color:"gray"}}>맥드라이브</a>
-              <a href = "/rental" className="dropli2" style={{fontSize:"16px",color:"gray"}}>임차문의</a>
-              </div>
-              <div class = "tt2">
-              <a href = "#" className = "dropli3"style={{fontSize:"16px",color:"gray"}}>프로모션</a>
-              <a href = "/news" className = "dropli3"style={{fontSize:"16px",color:"gray"}}>새로운 소식</a>
-              <a href = "#" className = "dropli3"style={{fontSize:"16px",color:"gray"}}>이달의 해피밀</a>
-              </div>
-              <div class = "tt3">
-              <a href = "/brand" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>브랜드 소개</a>
-              <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>사회적 책임과 지원</a>
-              <a href = "#" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>맥도날드 품질 이야기</a>
-              <a href = "/brandintro" className = "dropli4"style={{fontSize:"16px",color:"gray"}}>맥도날드 사람들</a>
-              </div>
-             
+
+                <a
+                  href="/menu"
+                  className="dropli"
+                  style={{ fontSize: "16px", color: "gray" }}
+                >
+                  버거
+                </a>
+                <a
+                  href="/lunch"
+                  className="dropli"
+                  style={{ fontSize: "16px", color: "gray" }}
+                >
+                  맥런치
+                </a>
+                <a
+                  href="/morinng"
+                  className="dropli"
+                  style={{ fontSize: "16px", color: "gray" }}
+                >
+                  맥모닝
+                </a>
+                <a
+                  href="/snack"
+                  className="dropli"
+                  style={{ fontSize: "16px", color: "gray" }}
+                >
+                  해피 스낵
+                </a>
+                <a
+                  href="/side"
+                  className="dropli"
+                  style={{ fontSize: "16px", color: "gray" }}
+                >
+                  사이드 & 디저트
+                </a>
+                <a
+                  href="/cafe"
+                  className="dropli"
+                  style={{ fontSize: "16px", color: "gray" }}
+                >
+                  맥카페 & 음료
+                </a>
+                <a
+                  href="/meal"
+                  className="dropli"
+                  style={{ fontSize: "16px", color: "gray" }}
+                >
+                  해피밀
+                </a>
+                <div class="tt">
+                  <a
+                    href="/search"
+                    className="dropli2"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    매장찾기
+                  </a>
+                  <a
+                    href="/delivery"
+                    className="dropli2"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    맥딜리버리
+                  </a>
+                  <a
+                    href="/mcdrive"
+                    className="dropli2"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    맥드라이브
+                  </a>
+                  <a
+                    href="/rental"
+                    className="dropli2"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    임차문의
+                  </a>
+                </div>
+                <div class="tt2">
+                  <a
+                    href="#"
+                    className="dropli3"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    프로모션
+                  </a>
+                  <a
+                    href="/news"
+                    className="dropli3"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    새로운 소식
+                  </a>
+                  <a
+                    href="#"
+                    className="dropli3"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    이달의 해피밀
+                  </a>
+                </div>
+                <div class="tt3">
+                  <a
+                    href="brand"
+                    className="dropli4"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    브랜드 소개
+                  </a>
+                  <a
+                    href="#"
+                    className="dropli4"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    사회적 책임과 지원
+                  </a>
+                  <a
+                    href="#"
+                    className="dropli4"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    맥도날드 품질 이야기
+                  </a>
+                  <a
+                    href="/brandintro"
+                    className="dropli4"
+                    style={{ fontSize: "16px", color: "gray" }}
+                  >
+                    맥도날드 사람들
+                  </a>
+                </div>
               </div>
             </li>
             <li>
@@ -66,7 +174,12 @@ const Header = () => {
 
           <li className="li2">
             <button className="imcha">
-              <a href = "/rental" style={{textDecoration:"none", color:"white"}}><h4>임차문의</h4></a>
+              <a
+                href="/rental"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <h4>임차문의</h4>
+              </a>
             </button>
             <button className="rec">
               <h4>RECRUIT</h4>
